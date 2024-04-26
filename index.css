@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: auto;
+}
+
+.todoapp h1{
+     display: flex;
+     justify-content: center;
+}
+
+
+button{
+    width: 80px;
+}
+
+.input{
+    width: 240px;
+}
+
+.data{
+    display: flex;
+    width: 100px;
+    justify-content:space-evenly;
+}
+.edit{
+    margin-right: 10px;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    color: black;
+    width: 220px;
+    padding: 0px;
+    background-color: white;
+    padding: 7px 3px 0px 20px;
+}
+.update{
+    display: none;
+}
+
+.table{
+    display: flex;
+    width: 390px;
+    justify-content: space-around;
+}
+
+.num{
+    padding: 4px 0px 0px 0px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.adddata{
+    background-color: #65e365;
+    width: 110px;
+    height: 30px;
+    font-weight: 700;
+}
+
+.save{
+    background-color:white;
+    font-weight: 700;
+    border :none;
+    font-size: 20px;
+    width: 32px;
+}
+
+.dlt{
+    background-color:white;
+    font-weight: 700;
+    border :none;
+    font-size: 20px;
+    width: 32px;
+}
+
+.cancel{
+    background-color:white;
+    font-weight: 700;
+    border :none;
+    font-size: 20px;
+    width: 32px;
+}
+
+.edit{
+    background-color:white;
+    font-weight: 700;
+    border :none;
+    font-size: 20px;
+    width: 32px;
+}
+
+@media only screen and (max-width : 420px) {
+
+    .table{
+        display: flex;
+        width: 391px;
+        justify-content: space-around;
+    }
+    .input{
+        width: 185px;
+        margin-left: 53px;
+    }
+    .item{
+        display: flex;
+    width: 384px;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: auto;
+    }
+    .num{
+        margin-left: 61px;
+    }
+}
